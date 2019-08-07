@@ -134,3 +134,8 @@ resource "azurerm_virtual_machine" "myterraformvm" {
         environment = "Terraform Demo"
     }
 }
+
+variable "subid" {}
+variable "clid" {}
+variable "clsid" {}
+variable "tenid" {}
